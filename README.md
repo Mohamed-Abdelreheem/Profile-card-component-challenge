@@ -25,8 +25,8 @@ This is a recipe page for an Omelette contains preparation time, ingredients and
 
 ### Links
 
-- Solution URL: (https://github.com/Mohamed-Abdelreheem/Recipe-page)
-- Live Site URL: (https://mohamed-abdelreheem.github.io/Recipe-page/)
+- Solution URL: (https://github.com/Mohamed-Abdelreheem/Profile-card-component-challenge)
+- Live Site URL: (https://mohamed-abdelreheem.github.io/Profile-card-component-challenge/)
 
 
 ### Built with
