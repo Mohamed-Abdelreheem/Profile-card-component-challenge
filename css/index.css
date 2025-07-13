@@ -1,0 +1,91 @@
+/* Global Styles */
+:root{
+  --Blue: hsl(185, 75%, 39%);
+  --Navy: hsl(229, 23%, 23%);
+  --Gray: hsl(227, 10%, 46%);
+  --Gray100: hsl(225, 10%, 92%);
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans" ;
+}
+body{
+  background-color: hsl(185, 75%, 39%);
+  position: relative;
+  overflow: hidden;
+}
+/* Page Style */
+.content{
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+.top{
+  top: -170%; 
+  left: -230%;
+  position: absolute;
+  z-index: -1;
+}
+.bottom{
+  top: 60%;
+  right: -215%;
+  position: absolute;
+  z-index: -1;
+}
+.container{
+  position: relative;
+  width: fit-content;
+  margin: 100px auto;
+  background-color: var(--Gray100);
+  border-radius: 10px;
+}
+@media(max-width: 375px){
+  .container{
+    margin: 60% auto;
+  }
+}
+.container .header{
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .vector-img{
+  position: absolute;
+  border-radius: 50%;
+  border: 10px solid var(--Gray100);
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container h1{
+  margin-top: 80px;
+  text-align: center;
+  color: var(--Navy);
+  text-transform: capitalize;
+  font-size: 22px;
+}
+.container h1 span{
+  color: var(--Gray);
+  font-size: 18px;
+}
+.container p{
+  text-align: center;
+  color: var(--Gray);
+  margin: -10px 0 30px;
+}
+.container hr{
+  color: var(--Gray100);
+  margin-bottom: -50px;
+}
+.container .footer{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer h1{
+  text-transform: uppercase;
+  font-size: 22px;
+}
